@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import HorizontalCard from '../components/HorizontalCard.astro'
-import { getCollection } from 'astro:content'
 import createSlug from '../lib/createSlug'
 import { projects } from '../data/projects'
+import { getPublishedPosts } from '../lib/posts'
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getPublishedPosts()).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 )
 

@@ -1,10 +1,10 @@
 import rss from '@astrojs/rss'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
-import { getCollection } from 'astro:content'
 import createSlug from '../lib/createSlug'
+import { getPublishedPosts } from '../lib/posts'
 
 export async function GET() {
-	const blog = await getCollection('blog')
+	const blog = await getPublishedPosts()
 	return rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
