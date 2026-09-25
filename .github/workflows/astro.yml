@@ -9,6 +9,9 @@ on:
   push:
     branches: ['main']
 
+  # Validate pull requests before merging
+  pull_request:
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -57,7 +60,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect-package-manager.outputs.lockfile }}
       - name: Setup Pages
@@ -65,6 +68,15 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Format check
+        run: ${{ steps.detect-package-manager.outputs.manager }} run format:check
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Lint
+        run: ${{ steps.detect-package-manager.outputs.manager }} run lint
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Type check
+        run: ${{ steps.detect-package-manager.outputs.manager }} run check
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: |
@@ -78,6 +90,7 @@ jobs:
           path: ${{ env.BUILD_PATH }}/dist
 
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
