@@ -47,13 +47,21 @@ import { Image } from 'astro:assets'
 					<div>
 						{
 							custom_link && (
-								<a class="btn btn-outline ml-4 grow md:grow-0" href={custom_link} target="_blank">
+								<a
+									class="btn btn-outline ml-4 grow md:grow-0"
+									href={custom_link}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									{custom_link_label}
 								</a>
 							)
 						}
-						<a class="btn btn-primary ml-4 grow md:grow-0" href={checkoutUrl} target="_blank"
-							>Buy Now</a
+						<a
+							class="btn btn-primary ml-4 grow md:grow-0"
+							href={checkoutUrl}
+							target="_blank"
+							rel="noopener noreferrer">Buy Now</a
 						>
 					</div>
 				</div>
