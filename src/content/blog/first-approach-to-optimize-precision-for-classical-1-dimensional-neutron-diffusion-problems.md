@@ -2,7 +2,7 @@
 title: 'First approach to optimize precision for classical 1-Dimensional neutron diffusion problems.'
 description: 'The goal of this post is about building the foundation for a roadmap to integrate Neutron Diffusion Problems with a non deterministic approach using Deep Learning.'
 pubDate: 'Dec 4 2025'
-heroImage: '/first-approach-to-optimize-precision-for-classical-1-dimensional-neutron-diffusion-problems.webp'
+heroImage: '../../assets/first-approach-to-optimize-precision-for-classical-1-dimensional-neutron-diffusion-problems.webp'
 badge: 'Physics'
 tags: ['Algorithm', 'Math', 'Learn']
 timeRead: 10

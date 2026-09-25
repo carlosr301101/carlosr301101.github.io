@@ -19,6 +19,7 @@ const {
 } = Astro.props
 dayjs.extend(localizedFormat)
 const displayDate = dayjs(pubDate).format('ll')
+const displayUpdatedDate = updatedDate ? dayjs(updatedDate).format('ll') : undefined
 import { Image } from 'astro:assets'
 ---
 
@@ -56,7 +57,7 @@ import { Image } from 'astro:assets'
 				updatedDate && (
 					<div>
 						{' '}
-						Last updated on <time>{updatedDate}</time>{' '}
+						Last updated on <time>{displayUpdatedDate}</time>{' '}
 					</div>
 				)
 			}

@@ -2,6 +2,7 @@
 import SideBarFooter from './SideBarFooter.astro'
 import { Image } from 'astro:assets'
 import SideBarMenu from './SideBarMenu.astro'
+import mia1 from '../assets/mia1.webp'
 const { sideBarActiveItemID } = Astro.props
 ---
 
@@ -17,7 +18,7 @@ const { sideBarActiveItemID } = Astro.props
 							format="webp"
 							width={300}
 							height={300}
-							src="/mia1.webp"
+							src={mia1}
 							alt="Carlos Rafael, a software engineer and nuclear enthusiast."
 							loading={'eager'}
 						/>

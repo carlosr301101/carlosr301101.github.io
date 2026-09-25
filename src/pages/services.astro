@@ -1,6 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import HorizontalCard from '../components/HorizontalCard.astro'
+import dataScientist from '../assets/dataScientist.webp'
+import fullStack from '../assets/fullStack.webp'
+import iot from '../assets/IoT.webp'
+import math from '../assets/math.webp'
 ---
 
 <BaseLayout title="Services" sideBarActiveItemID="services">
@@ -10,7 +14,7 @@ import HorizontalCard from '../components/HorizontalCard.astro'
 
 	<HorizontalCard
 		title="Full-Stack Developer"
-		img="/fullStack.webp"
+		img={fullStack}
 		desc="Hard skills in API-REST design, Backend Design, SOLID work, CI/CD and Databases architechture, on the other hand, I use JS frameworks like VUE3, Next.js and Astro to make my projects visually attractive and bringing a good UX to my customers."
 		badge="DEV"
 		url="mailto:carlosr301101@gmail.com?subject=Let's make a contact"
@@ -18,7 +22,7 @@ import HorizontalCard from '../components/HorizontalCard.astro'
 	<div class="divider my-0"></div>
 	<HorizontalCard
 		title="Data Scientist"
-		img="/dataScientist.webp"
+		img={dataScientist}
 		desc="I use python analysis tools like, polars, pandas, matplotlib, scikit to bring orchetasted analysis to make your bussines more profitable, increasing sales in 10% and rate conversion to 20% with well documented strategies. I worked from data collection to analysis and plans designing."
 		badge="DEV"
 		url="mailto:carlosr301101@gmail.com?subject=Let's make a contact"
@@ -26,7 +30,7 @@ import HorizontalCard from '../components/HorizontalCard.astro'
 	<div class="divider my-0"></div>
 	<HorizontalCard
 		title="Math and Physics Professor"
-		img="/math.webp"
+		img={math}
 		desc="With a strong knowledge of advanced math, I thought since 2024 to people who want to understand complex subjects like Real Analisys, Calculus and Physics."
 		url="mailto:carlosr301101@gmail.com?subject=Let's make a contact"
 		badge="Learn"
@@ -34,7 +38,7 @@ import HorizontalCard from '../components/HorizontalCard.astro'
 	<div class="divider my-0"></div>
 	<HorizontalCard
 		title="IoT System Design"
-		img="/IoT.webp"
+		img={iot}
 		desc="I design and implement IoT systems to bring solutions to real industry problems. Using Rust and C++ as core of this approach. Making automatization and workflows for those who want to make their life easier and Automate Boring Stuffs."
 		url="mailto:carlosr301101@gmail.com?subject=Let's make a contact"
 		badge="DEV | Low-Level"
