@@ -24,5 +24,5 @@ const activeClass = 'bg-base-300' // For primary color replace with `active` cla
 
 <script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
 	const activeItemElem = document.getElementById(sideBarActiveItemID)
-	activeItemElem && activeItemElem.classList.add(activeClass)
+	if (activeItemElem) activeItemElem.classList.add(activeClass)
 </script>

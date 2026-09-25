@@ -1,15 +1,12 @@
 ---
 import { type StoreSchema } from '../content/config'
 import BaseLayout from './BaseLayout.astro'
-import dayjs from 'dayjs'
-import localizedFormat from 'dayjs/plugin/localizedFormat'
 
-export interface Props extends StoreSchema {}
+export type Props = StoreSchema
 
 const {
 	title,
 	description,
-	updatedDate,
 	heroImage,
 	pricing,
 	oldPricing,
@@ -19,8 +16,6 @@ const {
 	custom_link_label,
 } = Astro.props
 
-dayjs.extend(localizedFormat)
-const displayDate = dayjs(updatedDate).format('ll')
 import { Image } from 'astro:assets'
 ---
 
