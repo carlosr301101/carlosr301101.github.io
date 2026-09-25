@@ -1,0 +1,33 @@
+---
+title: 'What we should avoid on the AI path'
+description: 'This article discusses common pitfalls and mistakes to avoid when introducing AI into industry.'
+pubDate: 'Sep 26 2026'
+heroImage: '../../assets/NuclearEnergyToday.webp'
+badge: 'Nuclear'
+tags: ['Nuclear', 'Community', 'industry', 'AI']
+timeRead: 6
+---
+
+## AI into industry
+
+When we talk about AI in industry, most people mistake these terms as a problem tied directly to the software development industry. But by far AI has had a much more important impact on every aspect of our lives, not everything revolves around developers and Big Tech. Increasingly, industry — and I mean heavy industry (the kind that makes cars, energy, food) <a href="https://initiatives.weforum.org/ai-global-alliance/industriestransformation" target="_blank">[ 1 ]</a> — is adopting AI at an ever-faster pace. In some cases they are aware of where in the production chain these decision agents, or the "technical supervisors" that LLMs have become, are introduced; in others they are more careless and touch sensitive parts of that same chain, parts where the inclusion of AI feels forced and completely unnecessary.
+
+## AI as a tool, not the author of our safety policies
+
+My question is: how much time will pass before we start using AI on command dashboards, in decision-making, in the creation of safety plans? — this last point being the most critical of all. Think for a moment about one of the most catastrophic accidents that has occurred in modern times: exactly, Chernobyl <a href="https://www-pub.iaea.org/MTCD/publications/PDF/Pub913e_web.pdf" target="_blank">[ 2 ]</a>. The safety policies created as a result of the events of that catastrophe have been adopted and adapted to each case in industry. If we start to contaminate this environment of safety, procedures and defense-in-depth policy with these new models, reports or rules that come out of this kind of black box we call an LLM, how far would our real capabilities as humans go to understand them and be able to make the right decisions at the right moment? This would lead to a cycle of (creating safety policies with AI) -> (making decisions with AI) -> (bringing AI into ever more critical parts of the system), and this end in kinds of accidents that we have no idea about. When we begin to undermine our robust design policies and defense-in-depth policies to make way for a greater inclusion of AI in industry, we will be moving further and further away from the path of safety and reliability of the systems we have built over the years.
+
+## A new rebirth of the nuclear industry
+
+If you have noticed, the nuclear industry is having a new rebirth these days, with the post ublished by the NEA (Nuclear Energy Agency) <a href="https://www.oecd-nea.org/jcms/pl_121251/nuclear-energy-agency-and-the-united-states-to-convene-global-leaders-for-roadmaps-to-new-nuclear-2026" target="_blank">[ 3 ]</a> on the future of nuclear energy and its role in the decarbonization of industry, and with the recent announcement of the construction of new nuclear reactors; it is clear that the nuclear industry is at a crucial moment. The introduction of AI in this industry must be handled with extreme caution. The mix of the two most powerful technologies created by human beings, can be a fatal combination if we do not apply a rigorous approach and new safety policies for the use of AI in this industry.
+
+## More AI does not mean more safety
+
+Following the recent events of vulnerabilities in OpenAI and Anthropic systems <a href="https://www.anthropic.com/threat-intelligence-report-september-2026" target="_blank">[ 4 ]</a> <a href="https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf" target="_blank">[ 5 ]</a>, the use of AI in the nuclear industry should be seen as a new attack vector, one whose effects would not only be limited to the locality where we deploy the AI in these systems, but could affect its entire environment and adjacent components. Recalling To Kill a Centrifuge <a href="https://cyber-peace.org/wp-content/uploads/2013/06/To-kill-a-centrifuge.pdf" target="_blank">[ 6 ]</a>, that famous report by Ralph Langner, terrorist organizations could make their way inside these systems using jailbreaking and prompt injection models to breach the security of these systems, and if we add to that the fact that AI is capable of learning from its mistakes and improving its attack capabilities, the result can be catastrophic.
+
+## The path we should follow
+
+A common practice these leading laboratories have is to generate more fear, more insecurity and pressure on governments to get more regulations and raise the bar of entry to this kind of industry for new companies, and I want to say that I am totally against this path. A model that by mathematical definition works as a black box must have open and clear safety rules and policies, with the possibility that all of us can audit them and verify their integrity. While the recent announcements to slow down this AI race <a href="https://darioamodei.com/post/we-must-pace-the-frontier#why-pace-" target="_blank">[ 7 ]</a> are a positive step, these laboratories should show a stronger commitment to clearly showing that this is what they want, and not just to slow the pace in order to hold back the competition and thus consolidate themselves at the head of this race in order to justify the next round of investment.
+
+## Hot take about AI and industry
+
+That is why I believe the path we should follow is one of more transparency, more openness and more collaboration among all the actors in industry, especially if we are talking about the nuclear industry. If they want to bring this kind of symbiosis of systems with AI to the new SMRs or Gen IV, or include them in plants already built — which I personally believe would be the natural path — it must be done openly, with clear rules, just as INSAG-1 was for the industry; the industry must commit to establishing limits and integrating AI into this defense-in-depth policy, and not the other way around. Just think: we have before our eyes the possibility of mixing the two most dangerous and powerful technologies that human beings have ever created, but it is in our hands to decide whether we will do it responsibly or not. Humanity, as never before, is encountering more and more enablers for our future, but at the same time more and more possible wrong paths that could lead to catastrophic events or directly to its extinction.
