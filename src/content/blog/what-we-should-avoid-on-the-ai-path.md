@@ -1,6 +1,6 @@
 ---
 title: 'What we should avoid on the AI path'
-description: 'This article discusses common pitfalls and mistakes to avoid when introducing AI into industry.'
+description: "When AI reaches the nuclear control room, more intelligence doesn't mean more safety. A look at the risks, and the path we should follow."
 pubDate: 'Sep 26 2026'
 heroImage: '../../assets/NuclearEnergyToday.webp'
 badge: 'Nuclear'
@@ -31,3 +31,9 @@ A common practice these leading laboratories have is to generate more fear, more
 ## Hot take about AI and industry
 
 That is why I believe the path we should follow is one of more transparency, more openness and more collaboration among all the actors in industry, especially if we are talking about the nuclear industry. If they want to bring this kind of symbiosis of systems with AI to the new SMRs or Gen IV, or include them in plants already built — which I personally believe would be the natural path — it must be done openly, with clear rules, just as INSAG-1 was for the industry; the industry must commit to establishing limits and integrating AI into this defense-in-depth policy, and not the other way around. Just think: we have before our eyes the possibility of mixing the two most dangerous and powerful technologies that human beings have ever created, but it is in our hands to decide whether we will do it responsibly or not. Humanity, as never before, is encountering more and more enablers for our future, but at the same time more and more possible wrong paths that could lead to catastrophic events or directly to its extinction.
+
+---
+
+<p class="text-sm leading-relaxed text-base-content/60">
+  <strong>AI usage disclosure.</strong> The original draft of this article was written by the author in Spanish. AI tools were used to translate it into English, review its spelling and coherence, and format the references. The thesis, the nuclear analysis and the opinions expressed are the author's own.
+</p>
