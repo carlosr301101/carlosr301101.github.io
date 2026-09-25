@@ -10,7 +10,7 @@
   </a>
   <a href="https://www.linkedin.com/in/carlos-rafael-gonzález-alejo-122559239">
    <img width="45px" src="https://skillicons.dev/icons?i=linkedin,&perline=14" / >
-    
+
   </a>
 </h2>
 
