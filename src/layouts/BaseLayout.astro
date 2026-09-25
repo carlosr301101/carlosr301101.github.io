@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import SideBar from '../components/SideBar.astro'
-import { ViewTransitions } from 'astro:transitions'
+import { ClientRouter } from 'astro:transitions'
 import SpeedInsights from '@vercel/speed-insights/astro'
 import Analytics from '@vercel/analytics/astro'
 
@@ -23,7 +23,7 @@ const {
 <html lang="en" data-theme="dark">
 	<head>
 		<BaseHead title={title} description={description} image={image} ogType={ogType} />
-		{TRANSITION_API && <ViewTransitions />}
+		{TRANSITION_API && <ClientRouter />}
 		<meta name="google-site-verification" content="sEwJES3HFzlw8rchXP6lfZZ81Mial_WXGrp2oCorYao" />
 		<script
 			defer
