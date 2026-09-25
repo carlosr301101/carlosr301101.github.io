@@ -6,4 +6,5 @@ heroImage: '../../assets/NuclearEnergyToday.webp'
 badge: 'Rust'
 tags: ['Nuclear', 'Community', 'industry', 'IA']
 timeRead: 8
+draft: true
 ---
