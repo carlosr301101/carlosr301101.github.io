@@ -4,6 +4,7 @@ import cargoTree from '../assets/cargo_tree.webp'
 import firstApproach from '../assets/first-approach-to-optimize-precision-for-classical-1-dimensional-neutron-diffusion-problems.webp'
 import int64grep from '../assets/int64grep.webp'
 import minegocio from '../assets/minegocio.pythonanywhere.com.webp'
+import neutronTransportPinns from '../assets/neutron-transport-pinns.webp'
 import pixRemesas from '../assets/pix-remesas.webp'
 import prefabhabana from '../assets/prefabhabana.webp'
 import spider from '../assets/spider.webp'
@@ -102,6 +103,15 @@ export const projects: Project[] = [
 		desc: "1-D Neutron Diffusion Solver using the Diamond Difference Method implemented in Rust. This project aims to provide a fast and reliable tool for simulating neutron transport in nuclear reactors, leveraging Rust's performance and safety features.",
 		url: 'https://crates.io/crates/neutron-diffusion-dd',
 		badge: 'Rust',
+		category: 'utils',
+		featured: true,
+	},
+	{
+		title: 'Neutron Transport PINNs (NTS)',
+		img: neutronTransportPinns,
+		desc: 'CLI/TUI automation system for S_N neutron transport simulations: JSON-validated inputs, parallel solver runs, parametric sweeps, 1D and 2D flux post-processing, and dataset generation for PINN models. Available on PyPI.',
+		url: 'https://pypi.org/project/neutron-transport-pinns/',
+		badge: 'Python | PyPI',
 		category: 'utils',
 		featured: true,
 	},
